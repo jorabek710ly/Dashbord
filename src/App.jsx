@@ -17,11 +17,12 @@ import UserDetail from './pages/user-detail/UserDetail'
 import Dashboard from './pages/dashboard/Dashboard'
 import Student from './pages/dashboard/student/Student'
 import Profile from './pages/dashboard/profile/Profile'
-import Group from './pages/dashboard/Group/Group'
+
 
 import Settings from './pages/dashboard/settings/Settings'
 import Notification from './pages/dashboard/notification/Notification'
 import Help from './pages/dashboard/help/Help'
+import Groups from './pages/dashboard/groups/Groups'
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
           <Route path='/post/:id' element={<PostsDetail />} />
           <Route path='/user/:id' element={<UserDetail />} />
           <Route path='/dashboard' element={<Dashboard />}>
-            <Route path='' element={<Group/>}/>
+            <Route path='' element={<Groups/>}/>
             <Route path='Student' element={<Student/>}/>
             <Route path='Profile' element={<Profile/>}/>
             <Route path='Settings' element={<Settings/>}/>
