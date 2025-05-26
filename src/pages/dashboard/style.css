@@ -1,0 +1,5 @@
+.sidebar-link.active{
+    background-color: rgb(158, 157, 171);
+}
+.sidebar-link{
+    transition: .2s}
