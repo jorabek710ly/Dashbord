@@ -17,7 +17,7 @@ import UserDetail from './pages/user-detail/UserDetail'
 import Dashboard from './pages/dashboard/Dashboard'
 import Student from './pages/dashboard/student/Student'
 import Profile from './pages/dashboard/profile/Profile'
-import Group from './pages/dashboard/group/group'
+import Group from './pages/dashboard/Group/Group'
 
 import Settings from './pages/dashboard/settings/Settings'
 import Notification from './pages/dashboard/notification/Notification'
